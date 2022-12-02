@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.headingFont{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: #1bb394;
+}
+.headingFont1{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: black;
+padding-left: 10px;
+}
+.headerAllign{
+  display: flex;
+  place-content: center;
+  margin-top: 47px;
+  background-color: beige
+}
+.headerAllignForP{
+  display: flex;
+  place-content: center;
+  background-color: beige;
+  font-family: 'Courier New', Courier, monospace;
+}
+.btndeg{
+  place-content: center;
+  margin-top: 47px;
+  text-align: center;
+  font-family: Stencil Std;
+}
+.btnfont{
+  font-family: Optima;
+}
+.modalheadcolor{
+  background-color: turquoise;
+  
+}
+.modalbodycolor{
+  background-color: skyblue;
+}
+.modalfooter{
+  background-color: teal;}
+  .fornLabel{
+    font-family:  Lucida Sans;
+  }
